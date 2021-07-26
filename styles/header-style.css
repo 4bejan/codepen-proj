@@ -1,0 +1,113 @@
+/* Comon header Styles */
+.header-wrapper {
+    height: 60px;
+    background-color: #11122b;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* Left part */
+.header-wrapper > .header-left-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-wrapper > .header-left-part > .logo img{
+    padding-right: 35px;
+    height: 40px;
+    filter: invert(100%);
+    margin-right: 15px; 
+}
+
+.header-wrapper > .header-left-part > .explore-column{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+}
+
+.header-wrapper > .header-left-part > .explore-column > .explore-menu-links{
+    display: flex;
+    flex-direction: row;
+}
+
+.header-wrapper > .header-left-part > .explore-column > .explore-menu-links > .nav-link{
+    padding-right: 10px;
+}
+
+.header-left-part > .explore-column > .explore-menu-links > .nav-link a{
+    color: #ebebeb;
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.explore-menu-links > .nav-link-spark a{
+    color: rgb(139, 142, 153);
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+.header-left-part > .explore-column > .explore-title {
+    color: #cea135;
+    font-weight: bold;
+}
+
+/* header right part */
+.header-right-part {
+    display: grid;
+    grid-template-columns: auto auto 1fr 1fr;
+    align-items: center;
+}
+
+/* create button display grid */
+.header-right-part > .create-bt button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    background-color: rgb(54, 56, 63);
+    padding: 10px 20px;
+    font-size: 15px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+}
+
+.header-right-part > .login-bt button{
+    border-radius: 4px;
+    border: none;
+    color: white;
+    background-color: rgb(54, 56, 63);
+    padding: 13px 20px;
+    font-size: 15px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+}
+
+.header-right-part > .singup-bt button{
+    border-radius: 4px;
+    border: none;
+    color: white;
+    background-color: rgb(54, 56, 63);
+    padding: 13px 20px;
+    font-size: 15px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+}
+
+.header-right-part > .search-icon i{
+    font-size: 30px;
+    padding: 0px 10px;
+    color: lightslategray;
+}
+
+
+
+
+
